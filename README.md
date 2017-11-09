@@ -10,19 +10,19 @@ Prerequisites
 3. config_batch.ini
 4. sample.list  
   one pair of samples per line. tab delimited
-5. dictionary.txt  	
+5. dictionary.txt  
   CHROM:POS:REF:ALT, Gene.knowngene. tab delimited
   
-Running
+Running  
 clone scripts in src/ to working directory	
 $ python run_compare_batch.py
 
 Outputs
-1. vcf/	
+1. vcf/  
   vcf file for each sample and reference
 2. outputsnp/ and outputindel/	
   intermediate files for CPRA comparison
-3. summary/	
+3. summary/  
   a. batchsummarysnp.txt and batchsummaryindel.txt
     counts of variants, TP, FP, FN, precision, and recall for each sample
   b. genecounttable.snp.txt and genecounttable.indel.txt
