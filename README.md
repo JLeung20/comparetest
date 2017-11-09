@@ -27,3 +27,4 @@ Outputs
     counts of variants, TP, FP, FN, precision, and recall for each sample
   b. genecounttable.snp.txt and genecounttable.indel.txt
     counts of variants broken down in gene for all samples
+
