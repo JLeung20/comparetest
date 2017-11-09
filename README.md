@@ -1,4 +1,4 @@
-Compare Variants
+Compare Variants  
 Primarily designed for NGS validation and QC by comparing the number of variants called against a reference callset.
 
 Prerequisites
