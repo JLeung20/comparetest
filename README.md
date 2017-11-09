@@ -20,7 +20,7 @@ $ python run_compare_batch.py
 Outputs
 1. vcf/  
   vcf file for each sample and reference
-2. outputsnp/ and outputindel/	
+2. outputsnp/ and outputindel/  
   intermediate files for CPRA comparison
 3. summary/  
   a. batchsummarysnp.txt and batchsummaryindel.txt
