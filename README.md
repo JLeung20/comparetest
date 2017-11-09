@@ -14,7 +14,7 @@ Prerequisites
   CHROM:POS:REF:ALT, Gene.knowngene. tab delimited
   
 Running  
-clone scripts in src/ to working directory	
+clone scripts in src/ to working directory  
 $ python run_compare_batch.py
 
 Outputs
