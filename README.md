@@ -2,9 +2,9 @@ Compare Variants
 Primarily designed for NGS validation and QC by comparing the number of variants called against a reference callset.
 
 Prerequisites
-1. <sample>.vcf.gz & .tbi
+1. <sample>.vcf.gz & .tbi__
  experimental results
-2. <reference>.vcf.gz & .tbi
+2. <reference>.vcf.gz & .tbi__
  reference data (e.g. 1000 genomes project, platinum genomes, WGS results, etc.)
  preprocession needed, depending on vcf format: 0/1 vs 0|1, 1 vs chr1, etc.
 3. config_batch.ini
