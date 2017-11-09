@@ -1,5 +1,5 @@
 Compare Variants
-Primarily designed for NGS validation and QC by comparing the number of variant called against a reference callset.
+Primarily designed for NGS validation and QC by comparing the number of variants called against a reference callset.
 
 Prerequisites
 1. <sample>.vcf.gz & .tbi
@@ -14,5 +14,16 @@ Prerequisites
   CHROM:POS:REF:ALT, Gene.knowngene. tab delimited
   
 Running
-scripts in src/
-$ python 
+clone scripts in src/ to working directory
+$ python run_compare_batch.py
+
+Outputs
+1. vcf/
+  vcf file for each sample and reference
+2. outputsnp/ and outputindel/
+  intermediate files for CPRA comparison
+3. summary/
+  a. batchsummarysnp.txt and batchsummaryindel.txt
+    counts of variants, TP, FP, FN, precision, and recall for each sample
+  b. genecounttable.snp.txt and genecounttable.indel.txt
+    counts of variants broken down in gene for all samples
