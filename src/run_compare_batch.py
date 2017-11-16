@@ -93,5 +93,5 @@ print("genecount.snp done")
 print("genecount.indel done")
 
 print("batchgenecount.py starts")
-os.system('batchgenecount.py')
+os.system('python batchgenecount.py')
 print("batchgenecout.py ENDS")
