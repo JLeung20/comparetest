@@ -6,7 +6,7 @@ Prerequisites
  experimental results
 2. <reference>.vcf.gz & .tbi  
  reference data (e.g. 1000 genomes project, platinum genomes, WGS results, etc.)
- preprocession needed, depending on vcf format: 0/1 vs 0|1, 1 vs chr1, etc.
+ preprocessing needed, depending on vcf format: 0/1 vs 0|1, 1 vs chr1, etc.
 3. config_batch.ini
 4. sample.list  
   one pair of samples per line. tab delimited
@@ -27,4 +27,3 @@ Outputs
     counts of variants, TP, FP, FN, precision, and recall for each sample
   b. genecounttable.snp.txt and genecounttable.indel.txt
     counts of variants broken down in gene for all samples
-
