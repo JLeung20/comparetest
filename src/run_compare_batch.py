@@ -69,27 +69,27 @@ def CompareCPRA(type,out_dir,sub):
 
 print("Print_vcf STARTS")
 print("Printing vcf..")
-#Print_vcf()
+Print_vcf()
 print("Print_vcf ENDS")
 
 print("CompareCPRAsnp STARTS")
 print("Comparing SNPs..")
-#CompareCPRA(snp,snp_out_dir,'snp')
+CompareCPRA(snp,snp_out_dir,'snp')
 print("CompareCPRA snp ENDS")
 
 print("CompareCPRAindel STARTS")
 print("Comparing INDELs..")
-#CompareCPRA(indel,indel_out_dir,'indel')
+CompareCPRA(indel,indel_out_dir,'indel')
 print("CompareCPRA indel ENDS")
 
 if not os.path.exists("summary"):
     os.makedirs("summary")
 
-#os.system('python batchsummary.py')
+os.system('python batchsummary.py')
 print("batchsymmary done")
-#os.system('python genecount.snp.py')
+os.system('python genecount.snp.py')
 print("genecount.snp done")
-#os.system('python genecount.indel.py')
+os.system('python genecount.indel.py')
 print("genecount.indel done")
 
 print("batchgenecount.py starts")
